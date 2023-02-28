@@ -1,11 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ca75875-2aef-4f4e-9023-d468bf0cf9c7" name="Changes" comment="" />
+    <list default="true" id="1ca75875-2aef-4f4e-9023-d468bf0cf9c7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/controllers/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dto/requests/RegisterRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dto/responses/FindUserResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/ArticleServices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/ArticleServicesImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/CommentServices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/CommentServicesImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/UserServices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/Mappers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/services/UserServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/models/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/models/Comment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/models/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/repositories/CommentRepositoriesImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/repositories/CommentRepositoriesImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/repositories/UserRepositories.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/repositories/UserRepositories.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/repositories/UserRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/repositories/UserRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/data/repositories/CommentRepositoriesImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/data/repositories/CommentRepositoriesImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarnMe.iml" beforeDir="false" afterPath="$PROJECT_DIR$/yarnMe.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2LY8BmblBMNLbh3cKhvjBxSU007" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -13,14 +52,116 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="services" />
+      <recent name="data.repositories" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="yarnMe" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArticleRepositoriesImplTest.saveTwoArticle_deleteOneArticle_byArticle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="yarnMe" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="data.repositories.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="data.repositories" />
+      <option name="MAIN_CLASS_NAME" value="data.repositories.ArticleRepositoriesImplTest" />
+      <option name="METHOD_NAME" value="saveTwoArticle_deleteOneArticle_byArticle" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CommentRepositoriesImplTest.saveTwoComment_deleteAllComment_CountIsZeroTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="yarnMe" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="data.repositories.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="data.repositories" />
+      <option name="MAIN_CLASS_NAME" value="data.repositories.CommentRepositoriesImplTest" />
+      <option name="METHOD_NAME" value="saveTwoComment_deleteAllComment_CountIsZeroTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CommentRepositoriesImplTest.saveTwoComment_deleteOneComment_byComment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="yarnMe" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="data.repositories.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="data.repositories" />
+      <option name="MAIN_CLASS_NAME" value="data.repositories.CommentRepositoriesImplTest" />
+      <option name="METHOD_NAME" value="saveTwoComment_deleteOneComment_byComment" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CommentRepositoriesImplTest.saveTwoComment_findAllComment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="yarnMe" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="data.repositories.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="data.repositories" />
+      <option name="MAIN_CLASS_NAME" value="data.repositories.CommentRepositoriesImplTest" />
+      <option name="METHOD_NAME" value="saveTwoComment_findAllComment" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.CommentRepositoriesImplTest.saveTwoComment_deleteAllComment_CountIsZeroTest" />
+        <item itemvalue="JUnit.CommentRepositoriesImplTest.saveTwoComment_findAllComment" />
+        <item itemvalue="JUnit.CommentRepositoriesImplTest.saveTwoComment_deleteOneComment_byComment" />
+        <item itemvalue="JUnit.ArticleRepositoriesImplTest.saveTwoArticle_deleteOneArticle_byArticle" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -29,7 +170,14 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676036525698</updated>
+      <workItem from="1676036527012" duration="26135000" />
+      <workItem from="1676361776111" duration="26065000" />
+      <workItem from="1676665433305" duration="558000" />
+      <workItem from="1676672210505" duration="7521000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>

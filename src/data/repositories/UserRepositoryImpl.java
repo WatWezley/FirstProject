@@ -28,8 +28,20 @@ public class UserRepositoryImpl implements UserRepositories{
     @Override
     public User findById(int id) {
         for (User user : users) {
-            if(user.getId() == id) return user;  }
+            if (user.getId() == id) return user;
+            else {
+                throw new NullPointerException("Id not found");
+            }
+        } return null;
+    }
 
+    @Override
+    public User findByUserName(String userName) {
+        for (User user: users){
+            if(user.getUserName().equalsIgnoreCase(userName)){
+                return user;
+            }
+        }
         return null;
     }
 

@@ -17,6 +17,8 @@ public class CommentRepositoriesImpl implements CommentRepositories {
 
     private User user;
 
+    private Article article;
+
 
         @Override
         public Comment save(Comment comment) {

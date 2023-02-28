@@ -10,6 +10,9 @@ public interface UserRepositories {
 
     User findById(int id);
 
+
+    User findByUserName(String userName);
+
     long count();
 
     List<User> findAll();

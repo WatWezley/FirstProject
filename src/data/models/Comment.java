@@ -7,9 +7,20 @@ public class Comment {
 
     private int postId;
 
+    private String body;
+
     private LocalDateTime timeStamp=LocalDateTime.now();
 
     private int userId;
+
+    public String getBody() {
+        return body;
+    }
+
+    public void setBody(String body) {
+        this.body = body;
+    }
+
 
     public int getCommentId() {
         return commentId;

@@ -1,2 +1,4 @@
-package services;public interface ArticleServices {
+package services;
+
+public interface ArticleServices {
 }
